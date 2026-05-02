@@ -24,7 +24,7 @@ User Input -> Planner -> Tool Selector -> Code Generator -> Tester -> Deployer -
 - Stage 4: Tester - 4-stage automated validation
 - Stage 5: Deployer - Saves and deploys the working agent
 
-## Technology Stack
+### Technology Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -37,7 +37,7 @@ User Input -> Planner -> Tool Selector -> Code Generator -> Tester -> Deployer -
 
 ## Installation
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.11 or higher
 - Google Gemini API key
@@ -54,7 +54,7 @@ echo "GOOGLE_API_KEY=your_api_key_here" > .env
 
 streamlit run app.py
 
-###Project Structure
+##Project Structure
 
 meta-agent/
 ├── planner.py
