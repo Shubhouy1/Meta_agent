@@ -1,58 +1,49 @@
-# Meta-Agent: AI System That Builds AI Agents
+# Meta-Agent: Autonomous AI Agent Builder
 
 ## Overview
-Meta-Agent is an autonomous system that designs, generates, tests, and deploys AI agents from natural language descriptions using an end-to-end automated pipeline.
 
-## Features
-- What-if Simulation for tool selection  
-- Self-Correction using LLM feedback  
-- Pattern Learning for faster builds  
-- Hybrid Architecture (LLM + prebuilt modules)  
-- Automated Testing (syntax, imports, execution)  
+Meta-Agent is an intelligent system that generates complete AI agents
+from natural language instructions. It automates the entire development
+pipeline, including planning, tool selection, code generation,
+validation, and deployment.
 
-## Architecture
-Pipeline:
-User Input -> Planner -> Tool Selector -> Code Generator -> Tester -> Deployer -> Working Agent
+## Key Features
 
-## Tech Stack
-- LLM: Google Gemini 2.5 Flash  
-- Embeddings: Google Embedding-001  
-- Vector DB: ChromaDB  
-- Framework: LangChain  
-- UI: Streamlit  
-- Language: Python 3.11+  
+-   Natural language to AI agent generation
+-   Automatic tool selection using what-if simulation
+-   Self-correcting code generation
+-   Multi-stage validation before deployment
+-   Pattern learning for faster reuse
+-   Hybrid architecture
+-   Secure sandboxed execution
+
+## System Architecture
+
+User Input → Planner → Tool Selector → Code Generator → Tester →
+Deployer → Final Agent
+
+## Technology Stack
+
+-   LLM: Google Gemini-2.5-Flash
+-   Framework: LangChain
+-   Vector DB: ChromaDB
+-   UI: Streamlit
+-   Language: Python
 
 ## Installation
-```bash
-git clone https://github.com/yourusername/meta-agent.git
-cd meta-agent
-pip install -r requirements.txt
-echo "GOOGLE_API_KEY=your_api_key_here" > .env
-streamlit run app.py
-Usage
 
-Describe the agent → Click "Build Agent" → System automatically generates and deploys it.
+    git clone https://github.com/your-username/meta-agent.git
+    cd meta-agent
+    pip install -r requirements.txt
 
-Team
+## Usage
 
-Shubh Rastogi, Rahul Yadav, Ruchi Kumari, Surbhi Mahto, Madhumita Mandal
+    streamlit run app.py
 
+## Contributors
 
----
-
-## ✅ Why this version is better
-
-- Clean and short (perfect for submission)
-- No formatting errors
-- No broken code blocks
-- Professional structure
-- Easy for examiner to read quickly
-
----
-
-## 🚀 Now just do:
-
-```bash
-git add README.md
-git commit -m "Added clean README"
-git push
+-   Shubh Rastogi
+-   Ruchi Kumari
+-   Madhumita Mandal
+-   Rahul Yadav
+-   Surbhi Mahto
